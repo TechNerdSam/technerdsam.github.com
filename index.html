@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Samyn-Antoy - Portfolio Numérique </title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&family=Inter:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="system-container">
+        <header class="system-header">
+            <div class="logo">
+                <pre aria-hidden="true">
+
+'########:::'#######::'########::'########:'########::'#######::'##:::::::'####::'#######:::::'########::'########:
+ ##.... ##:'##.... ##: ##.... ##:... ##..:: ##.....::'##.... ##: ##:::::::. ##::'##.... ##:::: ##.... ##: ##.....::
+ ##:::: ##: ##:::: ##: ##:::: ##:::: ##:::: ##::::::: ##:::: ##: ##:::::::: ##:: ##:::: ##:::: ##:::: ##: ##:::::::
+ ########:: ##:::: ##: ########::::: ##:::: ######::: ##:::: ##: ##:::::::: ##:: ##:::: ##:::: ##:::: ##: ######:::
+ ##.....::: ##:::: ##: ##.. ##:::::: ##:::: ##...:::: ##:::: ##: ##:::::::: ##:: ##:::: ##:::: ##:::: ##: ##...::::
+ ##:::::::: ##:::: ##: ##::. ##::::: ##:::: ##::::::: ##:::: ##: ##:::::::: ##:: ##:::: ##:::: ##:::: ##: ##:::::::
+ ##::::::::. #######:: ##:::. ##:::: ##:::: ##:::::::. #######:: ########:'####:. #######::::: ########:: ########:
+..::::::::::.......:::..:::::..:::::..:::::..:::::::::.......:::........::....:::.......::::::........:::........::
+                                                  #######                          
+                </pre>
+                <h1>Samyn-Antoy ABASSE <span class="blink-cursor">_</span></h1>
+                <p class="status-message">// Expert IA // Développeur Shell/Bash // Ingénieur Prompt</p>
+            </div>
+            <nav class="main-nav" aria-label="Navigation Principale">
+                <a href="#about" class="nav-item" data-command="cat /profil.txt" aria-label="Aller à la section À Propos"> &gt; cat /profil.txt </a>
+                <a href="#projects" class="nav-item" data-command="ls -l /projets" aria-label="Aller à la section Projets"> &gt; ls -l /projets </a>
+                <a href="#skills" class="nav-item" data-command="inspect /pile_techno.json" aria-label="Aller à la section Compétences"> &gt; inspect /pile_techno.json </a>
+                <a href="#contact" class="nav-item" data-command="connect --sécurisé" aria-label="Aller à la section Contact"> &gt; connect --sécurisé </a>
+            </nav>
+        </header>
+
+        <main class="system-main">
+            <section id="about" class="system-module about-section" aria-labelledby="about-heading">
+                <h2 id="about-heading">&gt; about.txt</h2>
+                <div class="code-block">
+                    <pre>
+<span class="comment">// Profil Utilisateur: Samyn-Antoy ABASSE</span>
+<span class="keyword">const</span> bio = {
+    <span class="property">nom</span>: "<span class="string">Samyn-Antoy ABASSE</span>",
+    <span class="property">titre</span>: "<span class="string">Ingénieur Prompt / Développeur Prompt-to-code</span>",
+    <span class="property">localisation</span>: "<span class="string">Mayotte, Océan Indien</span>",
+    <span class="property">expérience</span>: <span class="number">0</span>, <span class="comment">// Années d'expérience</span>
+    <span class="property">spécialités</span>: [
+        "<span class="string">Développement Full-Stack (spécialisé en Java/Front-end)</span>",
+        "<span class="string">Développement de Logiciels</span>",
+        "<span class="string">Developpement de jeux</span>",
+        "<span class="string">Développement de Scripts</span>",
+        "<span class="string">Expert en IA</span>"
+    ],
+    <span class="property">mission</span>: "<span class="string">Transformer les défis complexes en solutions numériques élégantes, évolutives et sécurisées.</span>"
+};
+
+<span class="function">console</span>.<span class="method">log</span>(<span class="variable">bio</span>.<span class="property">mission</span>);
+<span class="comment">// Passionné par la communication avec les intelligences artificielles et leur potentiel transformateur, je suis un ingénieur prompt autodidacte avec une détermination inébranlable. Bien que mon parcours ne soit pas balisé par des diplômes ou des expériences formelles en informatique, ma compétence repose sur des milliers d'heures d'expérimentation, d'apprentissage continu et une compréhension intuitive des modèles de langage. J'ai développé une expertise fine dans l'art de formuler des instructions précises et créatives pour extraire le meilleur des IA, allant de la génération de code à la création de contenus complexes, en passant par la résolution de problèmes et l'optimisation de processus.</span>
+                    </pre>
+                </div>
+            </section>
+
+            <section id="projects" class="system-module projects-section" aria-labelledby="projects-heading">
+                <h2 id="projects-heading">&gt; ls -l /projets</h2>
+                <div class="project-grid">
+                    <article class="project-card" data-project-id="ai-security-suite">
+                        <h3>Logiciel de comptabilité <span class="status-tag online">EN LIGNE</span></h3>
+                        <p class="project-meta">Technologies: Java SE</p>
+                        <p>Mon logiciel de compta : la gestion financière simplifiée ! 📊 Automatisez, suivez et optimisez vos finances sans effort. 🚀 Votre succès, notre priorité ! ✨</p>
+                        <button class="btn-terminal view-project-btn" data-id="ai-security-suite" aria-haspopup="dialog" aria-controls="project-detail-modal">[ VOIR_DÉTAILS ]</button>
+                    </article>
+                    <article class="project-card" data-project-id="blockchain-supply-chain">
+                        <h3>Réseau social de Gameur<span class="status-tag online">EN LIGNE</span></h3>
+                        <p class="project-meta">Technologies: HTML/CSS/JS et Gsap/GreenSock/Jakarta EE/ Spring Boot</p>
+                        <p>Ton hub gaming ultime ! 🚀 Trouve des coéquipiers, partage tes exploits et explore l'univers du jeu vidéo comme jamais. Conçu par un gamer, pour les gamers. 🏆</p>
+                        <button class="btn-terminal view-project-btn" data-id="blockchain-supply-chain" aria-haspopup="dialog" aria-controls="project-detail-modal">[ VOIR_DÉTAILS ]</button>
+                    </article>
+                    </div>
+                <div id="project-detail-modal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+                    <div class="modal-content">
+                        <button class="close-button" aria-label="Fermer la fenêtre modale des détails du projet">&times;</button>
+                        <h3 id="modal-project-title"></h3>
+                        <p id="modal-project-tech"></p>
+                        <p id="modal-project-desc"></p>
+                        <div class="modal-actions">
+                            <a id="modal-live-link" href="#" target="_blank" class="btn-terminal" rel="noopener noreferrer">[ DÉMO_LIVE ]</a>
+                            <a id="modal-github-link" href="https://github.com/TechNerdSam?tab=repositories" target="_blank" class="btn-terminal" rel="noopener noreferrer">[ RÉPO_GITHUB ]</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="system-module skills-section" aria-labelledby="skills-heading">
+                <h2 id="skills-heading">&gt; inspect /pile_techno.json</h2>
+                <div class="skills-grid">
+                    <div class="skill-item">
+                        <span class="skill-name">HTML/CSS/Javascript/React.js/Sass/Gsap(GreenSock)/JSX [Front-end] </span>
+                        <div class="progress-bar-container" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 95%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">Java/Jakarta EE/Spring Boot/SQL & NoSQL/WAMP/MAMP/LAMP [Back-end]</span>
+                        <div class="progress-bar-container" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 90%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">RESTful API/GraphQL/Spring Security/OAuth2/JWT/Principes de sécurité des applications</span>
+                        <div class="progress-bar-container" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 85%;"></div></div>
+                    </div>
+                    <div class="skill-item">
+                        <span class="skill-name">JUnit/Mockito/Glassfish/Git&Github/VS Code/Maven/Graddle/Docker/Agile(Scrum/Kaban) </span>
+                        <div class="progress-bar-container" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"><div class="progress-bar" style="width: 80%;"></div></div>
+                    </div>
+                    </div>
+            </section>
+
+          <section id="contact" class="system-module contact-section" aria-labelledby="contact-heading">
+        <h2 id="contact-heading">&gt; connect --sécurisé</h2>
+            <p>N'hésitez pas à me faire part de vos questions, suggestions ou toute autre demande. Je suis toujours ravi de discuter et d'échanger avec vous. Votre feedback est précieux et contribue à améliorer mes services et mon contenu. Je m'efforce de répondre dans les plus brefs délais et avec la plus grande attention.</p>
+    <p>Vous pouvez me contacter à cette adresse email : <a href="mailto:samynantoy@gmail.com">samynantoy@gmail.com</a></p>
+</body>
+
+    </section>
+        </main>
+
+        <footer class="system-footer">
+            <p>&copy; 2025 Samyn-Antoy ABASSE. Tous droits réservés. // Journal Système: Initialisé_v1.0 // Dernière Révision: <span class="commit-hash">25a7b9f3d1e0</span></p>
+            <div class="social-links">
+                <a href="https://github.com/TechNerdSam" target="_blank" title="Profil GitHub" rel="noopener noreferrer"><img src="https://img.icons8.com/?size=100&id=63777&format=png&color=000000" alt="Icône GitHub"></a>
+                <a href="https://www.linkedin.com/in/samyn-antoy-abasse-438746171/" target="_blank" title="Profil LinkedIn" rel="noopener noreferrer"><img src="https://img.icons8.com/?size=100&id=xuvGCOXi8Wyg&format=png&color=000000" alt="Icône LinkedIn"></a>
+                </div>
+        </footer>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html>
